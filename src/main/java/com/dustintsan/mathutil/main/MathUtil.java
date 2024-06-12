@@ -11,6 +11,12 @@ import javax.swing.JOptionPane;
  * @author Admin
  */
 public class MathUtil {
+
+    //this method is written directly in server to simulate
+    //the work of another team member, he uploads code before me
+    public static void SayHiFromServer() {
+
+    }
     
     public static void main(String[] args) {
         //Cách kiểm thử 2 - giống cách 1
