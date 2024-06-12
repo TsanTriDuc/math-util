@@ -11,7 +11,12 @@ import javax.swing.JOptionPane;
  * @author Admin
  */
 public class MathUtil {
-    
+
+    //this method is written in local
+    public static void SayHiFromLocal() {
+
+    }
+
     public static void main(String[] args) {
         //Cách kiểm thử 2 - giống cách 1
         //Test case #1: Check if 0! returns 1
@@ -19,12 +24,11 @@ public class MathUtil {
         long expectedResult = 1; //0! == 1
         long actualResult = MathUtility.getFactorial(n);
         String msg = "0!= | Expected: " + expectedResult + " Actual: " + actualResult;
-        
+
         JOptionPane.showMessageDialog(null, msg);
-        
+
     }
-    
-    
+
 //
 //    public static void main(String[] args) {
 //        //Đây là nơi test hàm
